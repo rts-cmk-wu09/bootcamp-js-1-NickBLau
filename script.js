@@ -17,6 +17,8 @@ console.log(quotesArray);
 let random = Math.floor(Math.random() * quotesArray.length);
 console.log(random);
 
+
+blockQuote.innerText = quotesArray[random]
 // Math.random
 
 // Math.floor
