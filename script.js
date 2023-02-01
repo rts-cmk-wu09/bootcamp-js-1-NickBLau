@@ -1,6 +1,6 @@
-let blockQuote= document.querySelector("blockquote")
+let blockQuote = document.querySelector("#myQuotes")
 console.log(blockQuote);
-const quotes = [
+const quotesArray = [
     ["If it isn't on Google, it doesn't exist.", "Jimmy Wales"],
     ["It's so fine and yet so terrible to stand in front of a blank canvas.", "Paul Cezanne"],
     ["Good Artists Copy, Great Artists Steal.", "Pablo Picasso"],
@@ -12,4 +12,18 @@ const quotes = [
     ["The happiest people seem to be those who have no particular cause for being happy except that they are so.", "William Inge"],
     ["If the Sun and Moon should ever doubt, they'd immediately go out.", "William Blake"]
   ]
+console.log(quotesArray);
 
+// Math.random
+
+// Math.floor
+
+// Array.length Math.random
+
+// innertext.html
+
+// blockQuote.innerText = quotes.mathrandom
+
+function randomQuote() {
+  
+}
